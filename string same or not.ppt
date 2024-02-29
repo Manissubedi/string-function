@@ -1,0 +1,21 @@
+//Write a program that accepts two string and check whether both are same or not?
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	char a[10],b[10];
+	int x;
+	printf("enter string a :");
+	gets (a);
+	printf("enter string b :");
+	gets (b);
+	x=strcmp(a,b);     //comparision statement
+	if(strcmp(a,b)==0)   
+	printf("both are equal");
+	else
+	printf("both are different");
+	return 0;
+	
+}
+
