@@ -1,1 +1,1 @@
-# string-function
+# string-type
